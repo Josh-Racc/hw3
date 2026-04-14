@@ -1,0 +1,8 @@
+﻿For this assignment, I set out to recreate the "Ki blade Slahr" energy blade sound used by Goku Black. But more inspired from 12:45-12:55 from this youtube video(can you tell my favorite character is goku black) The goal was to capture the weight and "sharpness" of the blade. Interestingly, the base layer I ended up with shares a similarity to Sukuna’s "Dismantle" from Jujutsu Kaisen (you are my special), a heavy, air-tearing strike that feels both physical and supernatural.
+In order to get the initial dismantle base I ended up using white noise. By sweeping a low-pass filter from 100HZ to 300HZ  in just 0.1 seconds, the sound transforms from a muffled thud into a sharp, rushing wind.
+
+
+The Energy Growl (FM Synthesis) The "hum" of the blade isn't static. I used one sine wave to modulate the frequency of another at 35HZ. This creates a vibrating "growl" that feels like unstable ki energy. While this was the one I struggled the most it sounded the most similar to the initial out sweep from the blade.
+
+
+The Aura Flare (LFO Modulation). To simulate the energy flaring out during the swing, I used a Low-Frequency Oscillator (LFO) set to 20HZ. This causes the volume to wobble rapidly, mimicking the visual flicker of an aura. The soft room or vroom is what I would imagine the blade would sound like with minimum ki output So while I did struggle to match exactly the audio, it inspired me to make it my own, one where it's more of the raw power than the power alluded to with the ki.
